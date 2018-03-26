@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/dialog"
+    >
+
+
+    <CheckBox
+        android:id="@+id/checkBoxEduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Law" />
+    <CheckBox
+        android:id="@+id/checkBoxHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health and Fitness" />
+    <CheckBox
+        android:id="@+id/checkBoxFinance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finance" />
+    <CheckBox
+        android:id="@+id/checkBoxSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+</LinearLayout>
